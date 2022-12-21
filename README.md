@@ -1,7 +1,11 @@
 ## Gorm-Scope-utils
 
-Gorm-Scope-utils is a set of tool kit help you build SQL with GORM support. 
-Go generics supported. You need to upgrade you Go version to at least 1.18. 
+gorm-scope-utils is a set of tool kit help you build SQL filter.
+You can easily build you scope filter with this tool set. 
+Go generics supported. You need to upgrade you Go version to at least 1.18.   
+
+
+
 
 ### Get Started
 
