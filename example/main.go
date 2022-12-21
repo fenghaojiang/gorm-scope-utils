@@ -1,18 +1,14 @@
-## Gorm-Scope-utils
+package main
 
-Gorm-Scope-utils is a set of tool kit help you build SQL with GORM support. 
-Go generics supported. You need to upgrade you Go version to at least 1.18. 
+import (
+	"fmt"
 
-### Get Started
+	"github.com/fenghaojiang/gorm-scope-utils/scope"
+	"github.com/fenghaojiang/gorm-scope-utils/value"
+	"gorm.io/driver/mysql"
+	"gorm.io/gorm"
+)
 
-```shell
-go get github.com/fenghaojiang/gorm-scope-utils
-``` 
-
-
-### Examples 
-
-```go
 func main() {
 	dbConns, err := gorm.Open(
 		mysql.Open("root:fenghaojiang@tcp(127.0.0.1:4000)/dbname?charset=utf8mb4&parseTime=True&loc=Local"),
@@ -58,5 +54,3 @@ func main() {
 		fmt.Printf("result values: %+v \n", res[i])
 	}
 }
-```
-
