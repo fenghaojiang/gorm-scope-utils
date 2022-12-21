@@ -1,4 +1,4 @@
-## Gorm-Scope-utils
+## Gorm-Scope-Utils
 
 gorm-scope-utils is a set of tool kit help you build SQL filter.
 You can easily build you scope filter with this tool set. 
